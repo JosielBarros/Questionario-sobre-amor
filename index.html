@@ -9,12 +9,11 @@
 <body>
     <div class="corpo--geral">
         <h1>O que você sabe sobre o Amor</h1>
-        <button class="butao--iniciar">Iniciar</button>
+        <button class="botao--iniciar" onclick="botaoIniciar()">Iniciar</button>
         <div class="corpo--perguntas">
-            <div class="item--perguntas">'01- Amor a primeira vista é possível entre algumas pessoas.',
-</div>
-            <button name="V" onclick="confirmaQuest()">Verdadeiro</button>
-            <button name="F" onclick="confirmaQuest()">falso</button>
+            <div class="item--perguntas">'01- Amor a primeira vista é possível entre algumas pessoas.',</div>
+            <button name="V" onclick="confirmaQuest(name)">Verdadeiro</button>
+            <button name="F" onclick="confirmaQuest(name)">falso</button>
         </div>
         <div class="corpo--resultado">
             <h1>FIM DO TESTE</h1>
@@ -22,8 +21,8 @@
             </div>
             <div class="resultado--dica">'Você possui uma boa compreensão do amor genuíno!',
             </div>
+            <button onclick="reiniciarTeste()">Reiniciar</button>
         </div>
-        <button onclick="reiniciarTeste()">Reiniciar</button>
     </div>
 
 

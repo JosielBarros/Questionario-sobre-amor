@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.corpo--geral{
+    background-image: url(image/amor.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+}
+h1{
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+button{
+    max-width: 130px;
+    font-size: 16px;
+    margin: 10px 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 10px;
+    border:0;
+    border-radius: 8px;
+    background-color: pink;
+    cursor: pointer;
+    outline: 0;
+}
+.corpo--perguntas{
+    font-size: 35px;
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item--perguntas{
+    margin: 20px 100px;
+}
+.corpo--resultado div{
+    font-size: 37px;
+    line-height: 45px;
+}

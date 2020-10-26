@@ -41,5 +41,10 @@ function confirmaQuest(name) {
     }
     else{
         c('.item--perguntas').innerHTML = dadosJson.perguntas[indexVerificacao];
+        c('.item--perguntas').style.opacity = 0;
+        c('.item--perguntas').style.display = 'flex'; 
+        setTimeout(() => {
+            c('.item--perguntas').style.opacity = 1;
+        }, 200);
     }
 }

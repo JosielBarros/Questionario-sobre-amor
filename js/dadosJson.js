@@ -1,3 +1,6 @@
+/*BANCO DE DADOS COM AS PERGUNTAS, RESPOSTAS E DICAS DO AUTOR DO TESTE*/
+
+
 let dadosJson = {
     perguntas:[
             '01- Amor a primeira vista é possível entre algumas pessoas.',
